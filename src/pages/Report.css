@@ -1,0 +1,98 @@
+/* 전체 컨테이너 */
+.report-container {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 900px;
+  text-align: center;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 제목 스타일링 */
+h1 {
+  color: #07008b;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* 섹션별 제목 */
+h2 {
+  font-size: 1.6em;
+  color: #555;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* 그래프 컨테이너 */
+.charts-container > div {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 분석 결과 섹션 */
+.analysis-section {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.analysis-section p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.analysis-section strong {
+  color: #2a9d8f;
+}
+
+/* 개선 방향 섹션 */
+.recommendation-section {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.recommendation-section ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+.recommendation-section li {
+  font-size: 1.1em;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.recommendation-section li::marker {
+  color: #2a9d8f;
+}
+
+/* 모바일 친화적 */
+@media (max-width: 768px) {
+  .report-container {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2em;
+    border-bottom: none; /* 밑줄 제거 */
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  .analysis-section p,
+  .recommendation-section li {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,49 @@
+.header-container {
+  display: flex; /* 가로 배치 */
+  align-items: center; /* 세로 중앙 정렬 */
+  justify-content: space-between; /* 양쪽 정렬 */
+}
+
+.logo {
+  margin-left: 100px;
+  display: flex; /* 로고와 텍스트를 정렬 */
+  align-items: center; /* 로고 텍스트 세로 중앙 정렬 */
+  margin-right: 50px; /* 로고와 네비게이션 사이에 공백 */
+}
+
+.logo img {
+  height: 100px; /* 로고 크기 조정 */
+}
+
+.navigation {
+  margin-right: 100px;
+  width: 940px; /* 네비게이션 바 너비 */
+  height: 60px; /* 네비게이션 바 높이 */
+  display: flex; /* 네비게이션 가로 배치 */
+  justify-content: center; /* 가운데 정렬 */
+  border-radius: 10px; /* 모서리 둥글게 설정 */
+  background-color: #3723a6; /* 네비게이션 바 배경색 추가 */
+}
+
+.nav-links {
+  display: flex; /* 링크를 가로로 배치 */
+  list-style: none; /* 불릿 제거 */
+  margin: 0;
+  padding: 0;
+  gap: 1.5rem; /* 링크 간 간격 */
+  align-items: center; /* 세로 중앙 정렬 */
+}
+
+.nav-links a {
+  text-decoration: none; /* 밑줄 제거 */
+  color: #fff; /* 링크 텍스트 색상 */
+  font-family: 'Inter', sans-serif; /* 폰트 지정 */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  white-space: nowrap; /* 텍스트 줄바꿈 방지 */
+}
+
+.nav-links a:hover {
+  color: #ffffff; /* 링크 hover 효과 */
+}

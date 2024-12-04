@@ -1,0 +1,79 @@
+/* 전체 컨테이너 */
+div {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 10px; /* 안쪽 여백 최소화 */
+  max-width: 600px; /* 최대 폭 더 축소 */
+  background-color: #f4f4f4;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 제목 스타일링 */
+.datadata h1 {
+  color: #07008b;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* 섹션별 제목 */
+.datadata h2 {
+  font-size: 1em; /* 글씨 크기 대폭 축소 */
+  color: #555;
+  margin: 10px 0 8px 8px; /* 간격 최소화 */
+  text-align: left;
+}
+
+/* 그래프 컨테이너 */
+div > div {
+  margin-bottom: 15px; /* 아래 여백 줄임 */
+  padding: 8px; /* 안쪽 여백 최소화 */
+  border: 1px solid #ddd;
+  border-radius: 5px; /* 테두리 곡률 줄임 */
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* 그림자 약화 */
+}
+
+/* 그래프 크기 조정 */
+canvas {
+  max-width: 100%; /* 그래프가 컨테이너 폭에 맞게 */
+  height: 200px; /* 그래프 높이 축소 */
+}
+
+/* 모바일 친화적 */
+@media (max-width: 1024px) {
+  div {
+    max-width: 85%; /* 화면 폭을 85%로 제한 */
+    padding: 8px; /* 패딩 줄임 */
+  }
+
+  .datadata h1 {
+    font-size: 1.3em; /* 제목 크기 축소 */
+  }
+
+  .datadata h2 {
+    font-size: 0.9em; /* 섹션 제목 크기 축소 */
+  }
+}
+
+@media (max-width: 768px) {
+  div {
+    max-width: 95%; /* 화면에 거의 꽉 차도록 */
+    padding: 5px;
+  }
+
+  .datadata h1 {
+    font-size: 1.2em; /* 더 작은 제목 */
+  }
+
+  .datadata h2 {
+    font-size: 0.8em;
+  }
+
+  canvas {
+    height: 150px; /* 모바일에서 그래프 높이 더 축소 */
+  }
+}

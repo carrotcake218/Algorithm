@@ -1,0 +1,14 @@
+{
+  "blackListInfo": [
+    {
+      "studentNumber": 2718883,
+      "limitStartDay": 340,
+      "borrowLimitDay": 60
+    },
+    {
+      "studentNumber": 2171115,
+      "limitStartDay": 340,
+      "borrowLimitDay": 60
+    }
+  ]
+}

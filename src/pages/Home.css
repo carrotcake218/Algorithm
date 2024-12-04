@@ -1,0 +1,100 @@
+display: flex;
+justify-content: space-between; /* 요소 사이에 간격 추가 */
+
+.airplane {
+  width: 1200px;
+  height: 447px;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.calendar-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* 각 칸의 크기를 동일하게 설정 */
+}
+
+.calendar-table th,
+.calendar-table td {
+  border: 1px solid #ddd;
+  width: 14.28%; /* 7열이므로 100% / 7 */
+  height: 30px; /* 고정된 높이 */
+  text-align: center;
+  vertical-align: top; /* 텍스트를 위쪽으로 정렬 */
+  font-size: 20px; /* 기본 글자 크기 */
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.calendar-table small {
+  font-size: 10px; /* 학사일정 글자 크기 조정 */
+  display: block;
+  margin-top: 5px;
+  line-height: 1.2; /* 줄 간격 조정 */
+}
+
+.calendar-table th {
+  background-color: #07008b;
+  font-weight: bold;
+}
+
+.laptop-loan-info-container {
+  max-width: 1000px; /* 사각형의 최대 너비 */
+  margin: 20px auto; /* 화면 중앙 정렬 */
+  padding: 20px; /* 내부 여백 */
+  border: 2px solid #ddd; /* 테두리 */
+  border-radius: 10px; /* 둥근 모서리 */
+  background-color: #ddd; /* 배경색 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+}
+
+.laptop-loan-info {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #000000;
+}
+
+.laptop-loan-info h1,
+.laptop-loan-info h2,
+.laptop-loan-info h3,
+.laptop-loan-info h4 {
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.laptop-loan-info ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.laptop-loan-info h1 {
+  color: #07008b;
+}
+
+.laptop-loan-info table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.laptop-loan-info table th,
+.laptop-loan-info table td {
+  border: 1px solid #fffff;
+  padding: 10px;
+  text-align: center;
+}
+
+.laptop-loan-info table th {
+  background-color: #07008b;
+  font-weight: bold;
+}
+
+.laptop-loan-info p {
+  margin: 10px 0;
+}
+
+.laptop-loan-info p.important {
+  color: red;
+  font-weight: bold;
+}

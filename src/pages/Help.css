@@ -1,0 +1,49 @@
+.help-container {
+  background-color: #e0d0f2; /* 부드러운 보라색 배경 */
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+  color: #5f4b8b;
+}
+
+.help-content {
+  background-color: #f9f4ff; /* 내용 배경색 */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  line-height: 1.8;
+  font-size: 16px;
+  color: #333;
+}
+
+.help-table p {
+  margin: 0;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+/* 테이블에 필요한 스타일 추가 */
+.help-table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.help-table th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.help-table th {
+  background-color: #5f4b8b;
+  color: white;
+  text-align: left;
+}
